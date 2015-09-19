@@ -7,7 +7,11 @@
 
 #include "utility\getopt.h"
 #include "utility\Logger.h"
-#include "logic\HeaderParser.h"
+
+#include "logic\HeaderParser\HeaderParser.h"
+#include "logic\CRC32b\CRC32b_Calculate.h"
+#include "logic\SHA1\SHA1_Calculate.h"
+#include "logic\Huffman\Huffman.h"
 
 typedef uint64_t u64;
 typedef uint32_t u32;

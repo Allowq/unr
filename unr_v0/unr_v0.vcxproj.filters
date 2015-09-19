@@ -24,10 +24,22 @@
     <ClCompile Include="utility\getopt.c">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="logic\HeaderParser.cpp">
+    <ClCompile Include="utility\Logger.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="utility\Logger.cpp">
+    <ClCompile Include="logic\CRC32b\CRC32b_Calculate.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\HeaderParser\HeaderParser.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\SHA1\SHA1_Calculate.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Huffman\Tree.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Huffman\Huffman.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,13 +50,31 @@
     <ClInclude Include="utility\getopt.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="logic\HeaderParser.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
     <ClInclude Include="utility\Logger.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="logic\define_winrar_headers.h">
+    <ClInclude Include="logic\CRC32b\CRC32b_Calculate.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\CRC32b\CRC32b_Consts.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\HeaderParser\HeaderParser.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\HeaderParser\HeaderParser_Defines.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\SHA1\SHA1_Calculate.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\Huffman\Queue.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\Huffman\Tree.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\Huffman\Huffman.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>

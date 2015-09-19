@@ -4,7 +4,7 @@
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>-s D:\Programming\C++\NIR\test_archives\калькулятор.rar</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-s D:\Projects\НИР\Workspace\tests\not_crypt_and_compress.rar</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

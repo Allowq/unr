@@ -1,0 +1,23 @@
+﻿Build started 05.09.2015 13:02:27.
+     1>Project "D:\Projects\НИР\Workspace\unr\unr_v0\unr_v0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\Microsoft Visual Studio 13.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt logic\CRC32Calculate.cpp utility\Logger.cpp logic\HeaderParser.cpp unr_v0.cpp
+         CRC32Calculate.cpp
+         Logger.cpp
+         HeaderParser.cpp
+         unr_v0.cpp
+         Generating Code...
+         D:\Programs\Microsoft Visual Studio 13.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt utility\getopt.c
+         getopt.c
+       Link:
+         D:\Programs\Microsoft Visual Studio 13.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\НИР\Workspace\unr\x64\Debug\unr_v0.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Projects\НИР\Workspace\unr\x64\Debug\unr_v0.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\НИР\Workspace\unr\x64\Debug\unr_v0.lib" /MACHINE:X64 x64\Debug\CRC32Calculate.obj
+         x64\Debug\Logger.obj
+         x64\Debug\HeaderParser.obj
+         x64\Debug\unr_v0.obj
+         x64\Debug\getopt.obj
+         unr_v0.vcxproj -> D:\Projects\НИР\Workspace\unr\x64\Debug\unr_v0.exe
+     1>Done Building Project "D:\Projects\НИР\Workspace\unr\unr_v0\unr_v0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.33

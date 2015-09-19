@@ -1,0 +1,28 @@
+﻿Build started 19.09.2015 11:40:00.
+     1>Project "D:\Projects\НИР\Workspace\unr\unr_v0\unr_v0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt logic\HeaderParser\HeaderParser.cpp
+         HeaderParser.cpp
+     1>d:\projects\нир\workspace\unr\unr_v0\logic\headerparser\headerparser.cpp(3): warning C4305: 'initializing' : truncation from 'int' to 'uint16_t'
+     1>d:\projects\нир\workspace\unr\unr_v0\logic\headerparser\headerparser.cpp(3): warning C4309: 'initializing' : truncation of constant value
+     1>d:\projects\нир\workspace\unr\unr_v0\logic\headerparser\headerparser.cpp(25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\programs\microsoft visual studio 13.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>d:\projects\нир\workspace\unr\unr_v0\logic\headerparser\headerparser.cpp(114): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\programs\microsoft visual studio 13.0\vc\include\string.h(168) : see declaration of 'strerror'
+       Link:
+         D:\Programs\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\НИР\Workspace\unr\Debug\unr_v0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\НИР\Workspace\unr\Debug\unr_v0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\НИР\Workspace\unr\Debug\unr_v0.lib" /MACHINE:X86 Debug\Huffman.obj
+         Debug\CRC32b_Calculate.obj
+         Debug\SHA1_Calculate.obj
+         Debug\Tree.obj
+         Debug\Logger.obj
+         Debug\HeaderParser.obj
+         Debug\unr_v0.obj
+         Debug\getopt.obj
+         unr_v0.vcxproj -> D:\Projects\НИР\Workspace\unr\Debug\unr_v0.exe
+       BscMake:
+         D:\Programs\Microsoft Visual Studio 13.0\VC\bin\bscmake.exe /nologo /o"D:\Projects\НИР\Workspace\unr\Debug\unr_v0.bsc" /n Debug\Huffman.sbr Debug\CRC32b_Calculate.sbr Debug\SHA1_Calculate.sbr Debug\Tree.sbr Debug\Logger.sbr Debug\HeaderParser.sbr Debug\unr_v0.sbr Debug\getopt.sbr
+     1>Done Building Project "D:\Projects\НИР\Workspace\unr\unr_v0\unr_v0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
